@@ -1,0 +1,32 @@
+{
+  "name": "ray-man",
+  "version": "1.0.1",
+  "description": "A Collection of manuals for ray-userland and related guides.",
+  "main": "ray-man.min.js",
+  "scripts": {
+    "test": "node tests/mainTest.js",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ray6464/ray-man.git"
+  },
+  "keywords": [
+    "manual",
+    "ray-userland"
+  ],
+  "author": "Ray Voice, Anna Voice",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ray6464/ray-man/issues"
+  },
+  "homepage": "https://github.com/Ray6464/ray-man#readme",
+  "bin": {
+    "ray-man": "./ray-man.min.js"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "ray-flags": "^0.0.7",
+    "ray-fs": "^2.2.1"
+  }
+}
